@@ -1,6 +1,6 @@
-# cwotv_app
+# 地质三院自然灾害标注
 
-A new Flutter project.
+此项目主要为地质三院作为内部分享地质灾害点标注、展示、查询使用
 
 ## Getting Started
 
