@@ -1,7 +1,7 @@
 import 'dart:developer';
 
-import 'package:htwms/api/api.dart';
-import 'package:htwms/core/utils/provider.dart';
+import 'package:dzmap/api/api.dart';
+import 'package:dzmap/core/utils/provider.dart';
 import 'package:provider/provider.dart';
 
 import '../core/http/http.dart';

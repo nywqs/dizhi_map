@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_easyrefresh/easy_refresh.dart';
 import 'package:get/get.dart';
-import 'package:htwms/core/utils/iconfont.dart';
+import 'package:dzmap/core/utils/iconfont.dart';
 
 import '../../widget/list/material_item.dart';
 

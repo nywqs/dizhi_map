@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:htwms/ui/pages/public/scan.dart';
+import 'package:dzmap/ui/pages/public/scan.dart';
 import 'package:scan/scan.dart';
 
 import '../../../core/utils/iconfont.dart';

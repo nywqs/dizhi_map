@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:htwms/api/user.dart';
+import 'package:dzmap/api/user.dart';
 
 import '../../core/utils/sputils.dart';
 import '../widget/ht_logo.dart';

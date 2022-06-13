@@ -1,7 +1,7 @@
-import 'package:htwms/ui/pages/apply/index.dart';
-import 'package:htwms/ui/pages/home/index.dart';
-import 'package:htwms/ui/pages/profile/index.dart';
+import 'package:dzmap/ui/pages/apply/index.dart';
 import 'package:flutter/material.dart';
+import 'package:dzmap/ui/pages/home/index.dart';
+import 'package:dzmap/ui/pages/profile/index.dart';
 import 'package:provider/provider.dart';
 
 import '../../core/utils/click.dart';

@@ -3,7 +3,7 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:htwms/api/api.dart';
+import 'package:dzmap/api/api.dart';
 
 import '../../../api/user.dart';
 import '../../../core/http/http.dart';

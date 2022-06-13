@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
     return Consumer2<AppTheme, LocaleModel>(
         builder: (context, appTheme, localeModel, _) {
       return GetMaterialApp(
-        title: '航天危化品管理',
+        title: '地质三院',
         theme: ThemeData(
           brightness: appTheme.brightness,
           primarySwatch: appTheme.themeColor,

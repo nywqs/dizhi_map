@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:htwms/core/utils/provider.dart';
+import 'package:dzmap/core/utils/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SPUtils {
@@ -51,13 +51,15 @@ class SPUtils {
     locale ??= LOCALE_FOLLOW_SYSTEM;
     return locale;
   }
-  static Future<bool> saveHost(String host){
+
+  static Future<bool> saveHost(String host) {
     return _spf!.setString('key_host', host);
   }
 
   static String? getHost() {
     return _spf?.getString('key_host');
   }
+
   ///昵称
   static Future<bool> saveNickName(String nickName) {
     return _spf!.setString('key_nickname', nickName);

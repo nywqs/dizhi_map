@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:htwms/ui/pages/apply/widget/cargo_place_info.dart';
+import 'package:dzmap/ui/pages/apply/widget/cargo_place_info.dart';
 
 import '../../../core/utils/iconfont.dart';
 
