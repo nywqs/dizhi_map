@@ -1,9 +1,9 @@
 import 'dart:collection';
 import 'dart:developer';
 
+import 'package:dzmap/api/api.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:dzmap/api/api.dart';
 
 import '../../../api/user.dart';
 import '../../../core/http/http.dart';
@@ -30,7 +30,6 @@ class _LoginPageState extends State<LoginPage> {
     super.initState();
     _unameController.text = "admin";
     _pwdController.text = "admin123";
-    _baseUrl.text = "http://192.168.1.4:8080";
   }
 
   @override
@@ -61,28 +60,6 @@ class _LoginPageState extends State<LoginPage> {
       autovalidateMode: AutovalidateMode.disabled,
       child: Column(
         children: <Widget>[
-          Padding(
-            padding: const EdgeInsets.symmetric(vertical: 50),
-            child: SizedBox(
-              width: 200,
-              height: 200,
-              child: Image.asset('assets/images/logo.png'),
-            ),
-          ),
-          SPUtils.getHost() == null
-              ? TextFormField(
-                  autofocus: false,
-                  controller: _baseUrl,
-                  decoration: const InputDecoration(
-                      labelText: "服务器请求地址",
-                      hintText: "请输入请求服务器地址",
-                      hintStyle: TextStyle(fontSize: 12),
-                      icon: Icon(Icons.person)),
-                  //校验用户名
-                  validator: (v) {
-                    return v!.trim().isNotEmpty ? null : "用户名不能为空";
-                  })
-              : Container(),
           TextFormField(
               autofocus: false,
               controller: _unameController,

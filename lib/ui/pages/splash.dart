@@ -1,6 +1,6 @@
+import 'package:dzmap/api/user.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:dzmap/api/user.dart';
 
 import '../../core/utils/sputils.dart';
 import '../widget/ht_logo.dart';
@@ -35,7 +35,7 @@ class _SplashPageState extends State<SplashPage> {
             height: 150,
           ),
           Text(
-            "航天危化品管控",
+            "地质灾害点",
             style: TextStyle(
               fontSize: 22,
               color: Colors.black,
